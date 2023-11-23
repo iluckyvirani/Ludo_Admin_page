@@ -1,0 +1,61 @@
+/* TopBar.css */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #fff;
+  border-bottom: 2px solid;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  /* background-color: black; */
+}
+.search .icons{
+  color: #fff;
+  background-color: #254097;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid black;
+  border-left: none;
+  width: 300px;
+}
+
+.settings {
+  cursor: pointer;
+}
